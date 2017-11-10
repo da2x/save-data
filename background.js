@@ -1,3 +1,9 @@
+/*
+ * Copyright © 2016–2017 Daniel Aleksandersen
+ * SPDX-License-Identifier: GPL-3.0
+ * License-Filename: LICENSE
+ */
+
 // Mozilla WebExtension or Chromium Extension
 if (typeof browser === 'undefined' && typeof chrome !== 'undefined') {
   browser = chrome;
@@ -33,4 +39,3 @@ browser.webRequest.onBeforeSendHeaders.addListener(
     "requestHeaders"
   ]
 );
-
