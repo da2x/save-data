@@ -17,10 +17,8 @@
   "short_name": "Save-Data",
   "permissions": [
     "<all_urls>",
-    "tabs",
     "webRequest",
-    "webRequestBlocking",
-    "management"
+    "webRequestBlocking"
   ],
   "incognito": "spanning",
   "offline_enabled": true,
